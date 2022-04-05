@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <title>Layout Bootstrap - Shirley</title>
+</head>
+<body id="home">
+    <header class="topo shadow-lg sticky-top menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/logo.png" alt="logotipo">
+                </div>
+                    <div class="col-8">
+
+                    <!--Mobile-->
+                        <nav class="navbar navbar-light d-sm-none justify-content-end">
+                            <div class="container-fluid justify-content-end">
+                                <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </nav>
+                        <!--Mobile-->
+                        <!--Desktop-->
+                        <div class="d-none d-sm-block">
+                            <nav class="nav justify-content-end">
+                                <a class="nav-link" href="#home">Home</a>
+                                <a class="nav-link" href="#quemsou">Quem sou</a>
+                                <a class="nav-link" href="#projetos">Projetos</a>
+                                <a class="nav-link" href="#conhecimentos">Conhecimentos</a>
+                                <a class="nav-link" href="#servicos">Serviços</a>
+                                <a class="nav-link" href="#contato">Contato</a>
+                            </nav>
+                        </div>
+                    </div>
+                        <!--Desktop-->
+                        <!--Mobile-->
+                        <div class="col-12 text-end">
+                            <div class="collapse" id="menuMobile">
+                                <nav class="nav flex-column justify-content-end">
+                                    <a class="nav-link" href="#home">Home</a>
+                                    <a class="nav-link" href="#quemsou">Quem sou</a>
+                                    <a class="nav-link" href="#projetos">Projetos</a>
+                                    <a class="nav-link" href="#conhecimentos">Conhecimentos</a>
+                                    <a class="nav-link" href="#servicos">Serviços</a>
+                                    <a class="nav-link" href="#contato">Contato</a>
+                                </nav>
+                            </div>
+                        </div>
+                    <!--Mobile-->
+            </div>
+        </div>
+    </header>
+
+    <section id="quemsou">
+        <div class="container topo">
+            <div class="row banner">
+                <div class="col-12 col-sm-6 order-2 order-sm-1">
+                    <img src="images/laptop2.png" class="mt-3 img-destaque d-block mx-auto" alt="notebook">
+                </div>
+                <div class="col-12 order-sm-2 col-sm-6 align-self-center">
+                    <h1 class="cor-texto"> Shirley Claro </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat lectus et tempus varius. Pellentesque pretium nulla leo, eget commodo erat ullamcorper at. Praesent elementum ipsum eu neque commodo sagittis. Aenean vulputate cursus urna ut consequat. Quisque dignissim est luctus mi pretium, non feugiat odio efficitur. Vivamus ultrices, metus sit amet interdum porta, leo purus malesuada nisi, vitae bibendum nunc sapien nec nunc.</p>
+                    <a href="#" class="btn btn-primary rounded-pill">Saiba Mais...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projetos">
+        <div class="container topo">
+            <div class="row">
+                <div class="col-6 col-sm-3 text-center">
+                    <img src="images/brain.png" class="d-block mx-auto" alt="brain">
+                    <h4 class="cor-titulo mt-3">Projeto</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-6 col-sm-3 text-center">
+                    <img src="images/brain.png" class="d-block mx-auto" alt="brain">
+                    <h4 class="cor-titulo mt-3">Projeto</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-6 col-sm-3 text-center">
+                    <img src="images/brain.png" class="d-block mx-auto" alt="brain">
+                    <h4 class="cor-titulo mt-3">Projeto</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-6 col-sm-3 text-center">
+                    <img src="images/brain.png" class="d-block mx-auto" alt="brain">
+                    <h4 class="cor-titulo mt-3">Projeto</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="conhecimentos" id="conhecimentos">
+        <div class="container topo">
+            <div class="row">
+                <div class=" col-12 col-sm-7 align-self-center">
+                    <p class="h1 cor-texto">Conhecimentos</p>
+                    <p>Quisque nulla risus, accumsan at leo semper, tincidunt commodo nulla. Suspendisse nisi dui, bibendum nec tortor ut, pulvinar tempor nulla. Phasellus dictum sagittis metus eget rutrum. Nunc suscipit posuere tempor. Pellentesque hendrerit libero a erat pellentesque mollis. Integer ut turpis vitae justo pellentesque egestas. Donec fringilla felis nibh, congue pulvinar turpis euismod ac. Morbi sit amet faucibus urna. Etiam gravida nunc pulvinar ultrices tempor.</p>
+                </div>
+                <div class= "col-12 col-sm-5">
+                    <img src="images/conhecimentos.png" class="d-block mx-auto mt-5" alt="imagem de destaque">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-sm-4 text-center">
+                  <div class="card">
+                      <img src="images/imagem1.png" class="card-img-top" alt="Serviço1">
+                      <h5 class="card-title cor-titulo">Serviços</h5>
+                      <p class="card-text cor-texto">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <div class="card">
+                        <img src="images/imagem2.png" class="card-img-top" alt="Servico2">
+                        <h5 class="card-title cor-titulo">Serviços</h5>
+                        <p class="card-text cor-texto">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <div class="card">
+                        <img src="images/imagem3.png" class="card-img-top" alt="Servico3">
+                        <h5 class="card-title cor-titulo">Serviços</h5> 
+                        <p class="card-text cor-texto">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="carousel carousel-dark carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner mt-5">
+                <div class="carousel-item active">
+                    <div class="row text-center topo">
+                        <div class="col-6 col-sm-3">
+                            <img src="images/logo.png" alt="slide">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img src="images/logo.png" alt="slide">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img src="images/logo.png" alt="slide">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img src="images/logo.png" alt="slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row text-center topo">
+                        <div class="col-6 col-sm-3">
+                            <img src="images/logo1.png" alt="Slide">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img src="images/logo1.png" alt="Slide">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img src="images/logo1.png" alt="Slide">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img src="images/logo1.png" alt="Slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="conhecimentos" id="contato">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-sm-6 mt-5 mb-5">
+                    <h4 class="mt-3 cor-texto">Contato</h4>
+                    <p>(11) 95040-7458</p>
+                    <p>shirleylidianec@hotmail.com</p>
+                </div>
+                <div class="col-12 col-sm-6 mt-5 mb-5">
+                    <h4 class="cor-texto"> Redes Sociais</h4>
+                    <ul class="nav flex-column">
+                        <a class="nav-link" href="#">Linkedin</a>
+                        <a class="nav-link" href="#">Github</a>
+                        <a class="nav-link" href="#">Instagram</a>
+                    </ul>
+                </div>
+                <div class="row- text-center">
+                    <p> Devenvolvido por @ShirleyClaro</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

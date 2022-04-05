@@ -1,0 +1,23 @@
+.topo{
+    padding: 20px;
+}
+
+.img-destaque{
+    max-width: 450px;
+}
+
+.cor-titulo{
+    color: #202a65;
+}
+
+.cor-texto{
+    color: #F50057;
+}
+
+.conhecimentos{
+    background: #202a65;
+    color: #fff;
+}
+.menu{
+    background: #fff;
+}
